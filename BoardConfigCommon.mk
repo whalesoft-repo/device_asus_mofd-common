@@ -22,6 +22,7 @@ TARGET_CPU_ABI_LIST := x86,armeabi-v7a,armeabi
 TARGET_CPU_ABI_LIST_32_BIT := x86,armeabi-v7a,armeabi
 TARGET_CPU_SMP := true
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := x86_64-linux-android-
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/x86/x86_64-linux-android-4.9/bin
 TARGET_BOARD_PLATFORM := moorefield
 TARGET_BOOTLOADER_BOARD_NAME := moorefield
 TARGET_USERIMAGES_USE_EXT4 := true
