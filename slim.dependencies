@@ -1,12 +1,12 @@
 [
   {
     "repository": "SlimRoms/kernel_asus_moorefield",
-    "target_path": "kernel/asus/moorefield"
+    "target_path": "kernel/asus/moorefield",
     "branch": "ng7.1"
   },
   {
     "repository": "SlimRoms/android_external_stlport",
-    "target_path": "external/stlport"
+    "target_path": "external/stlport",
     "branch": "ng7.1"
   }
 ]
